@@ -1,73 +1,33 @@
 name: Bug Report
-description: Report a bug or unexpected behavior in the Fabric Smart Client
+description: Report a bug encountered while using the Fabric Smart Client
 labels: ['status: awaiting triage']
 projects: ["hyperledger-labs/8"]
 type: Bug
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ---
-        ## Thanks for submitting a bug report! 🐛
-
-        Before submitting:
-        - Search [existing issues](https://github.com/hyperledger-labs/fabric-smart-client/issues) to check if this has been reported before
-        - For security vulnerabilities, please follow our [responsible disclosure process](https://hedera.com/bounty) instead of opening a public issue
-
-        A detailed bug report helps us identify and fix the problem faster. Please be as specific as possible.
-        ---
-
   - type: textarea
     id: description
     attributes:
-      label: 👾 Description of the Issue
+      label: What happened?
       description: |
         Briefly describe what is wrong. What did you observe, and what did you expect instead?
         Include relevant file paths, class names, or method names if you know them.
-      value: |
-        Describe the bug here.
     validations:
       required: true
 
   - type: textarea
     id: steps
     attributes:
-      label: 🔁 Steps to Reproduce
+      label: How can we reproduce it?
       description: |
         Provide clear, numbered steps that consistently reproduce the issue.
         Include any relevant code, command-line invocations, or configuration.
-      value: |
-        1.
-        2.
-        3.
-    validations:
-      required: true
-
-  - type: textarea
-    id: expected
-    attributes:
-      label: ✅ Expected Behavior
-      description: What should have happened? Even a simple "I expected no error / no crash / the function to return a value" is helpful.
-      value: |
-        Describe the expected behavior here.
-    validations:
-      required: true
-
-  - type: textarea
-    id: actual
-    attributes:
-      label: ❌ Actual Behavior
-      description: |
-        What actually happened? Include error messages, stack traces, or unexpected output.
-      value: |
-        Describe the actual behavior here.
     validations:
       required: true
 
   - type: textarea
     id: environment
     attributes:
-      label: 🌐 Environment
+      label: Environment
       description: Provide details about the environment where the bug occurred.
       value: |
         - FSC version (e.g., latest main, v0.9.0):
@@ -79,10 +39,8 @@ body:
   - type: textarea
     id: additional
     attributes:
-      label: 🤔 Additional Information
+      label: Additional Information
       description: |
         Anything else that might help: logs, screenshots, related issues, bisected commits, etc.
-      value: |
-        Optional.
     validations:
       required: false

@@ -1,21 +1,9 @@
-name: Feature Request
+name: Feature
 description: Propose a new capability for the Fabric Smart Client
 labels: ['status: awaiting triage']
 projects: ["hyperledger-labs/8"]
 type: Feature
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ---
-        ## Thanks for proposing a feature! 💡
-
-        Before submitting:
-        - Search [existing issues](https://github.com/hyperledger-labs/fabric-smart-client/issues) to check if this has been proposed  before
-        
-        A well-described feature request makes it much easier for maintainers and the project team to evaluate, plan, and implement.
-        ---
-
   - type: textarea
     id: problem
     attributes:
@@ -24,32 +12,26 @@ body:
         What problem are you trying to solve? Describe the need or gap clearly.
         Focus on the problem itself — the proposed solution comes next.
         If you already have a specific solution in mind, describe it under "Proposed Solution" — just include a brief summary of the need here.
-      value: |
-        Describe the problem here.
     validations:
       required: true
 
   - type: textarea
     id: solution
     attributes:
-      label: 💡 Proposed Solution
+      label: Proposed Solution
       description: |
-        Describe the feature you'd like to see. What would the API or behavior look like?
+        Describe the feature you'd like to propose. What would the API or behavior look like?
         Include examples, pseudocode, or sketches that help illustrate the idea.
-      value: |
-        Describe the proposed solution here.
     validations:
       required: true
 
   - type: textarea
     id: alternatives
     attributes:
-      label: 🔄 Alternatives Considered
+      label: Alternatives Considered
       description: |
         What other approaches did you consider? Why is the proposed solution preferred?
         Write "None" if no alternatives were considered.
-      value: |
-        Describe alternatives here, or write "None" if not applicable.
     validations:
       required: false
 
@@ -60,19 +42,15 @@ body:
       description: |
         Any hints about where or how this might be implemented in the Fabric Smart Client?
         This is optional — maintainers will fill in detailed implementation guidance during triage.
-      value: |
-        Optional. Add any hints here.
     validations:
       required: false
 
   - type: textarea
     id: additional
     attributes:
-      label: 🤔 Additional Information
+      label: Additional Information
       description: |
         Links to prior art, related features, discussions, or any other context that might
         be helpful for evaluating this request.
-      value: |
-        Optional.
     validations:
       required: false
