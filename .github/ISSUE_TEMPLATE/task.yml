@@ -1,0 +1,79 @@
+name: Task
+description: Propose a maintenance, improvement, or operational task for the Fabric Smart Client
+labels: ['status: awaiting triage']
+projects: ["hyperledger-labs/8"]
+type: Task
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## Thanks for contributing! 🔧
+
+        Tasks cover maintenance, quality, tooling, and improvement work that keeps the
+        Fabric Smart Client healthy and easy to contribute to.
+
+        Examples of tasks:
+        - Refactoring or improving existing code
+        - Updating dependencies or build tooling
+        - Improving test coverage or CI pipelines
+        - Clarifying documentation or code comments
+        - Enhancements to existing features (without adding new public API)
+
+        **Not sure if this is a Task?**
+        - Adding new public API or behavior → use the **Feature Request** template
+        - Reporting incorrect behavior → use the **Bug Report** template
+        - Everything else (maintenance, tooling, quality, enhancements) → you're in the right place!
+
+        Before submitting, search [existing issues](https://github.com/hyperledger-labs/fabric-smart-client/issues)
+        to avoid duplicating work in progress.
+        ---
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 👾 Description of the Task
+      description: |
+        What needs to be done and why? Describe the current state and what should change.
+        Include relevant file paths, class names, or modules if you know them.
+      value: |
+        Describe the task here.
+    validations:
+      required: true
+
+  - type: textarea
+    id: approach
+    attributes:
+      label: 💡 Proposed Approach
+      description: |
+        How should this task be accomplished? Describe the intended strategy and any
+        constraints or tradeoffs to be aware of.
+      value: |
+        Describe the proposed approach here.
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: 👩‍💻 Implementation Steps
+      description: |
+        Walk through how to complete this task step by step.
+        Use checkboxes for actionable items.
+      value: |
+        - [ ] Step 1
+        - [ ] Step 2
+        - [ ] Step 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 🤔 Additional Information
+      description: |
+        Links to changelogs, related issues, PRs, or any other relevant context.
+      value: |
+        Optional.
+    validations:
+      required: false
