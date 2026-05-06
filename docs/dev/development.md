@@ -15,7 +15,7 @@ Before you begin, ensure you have the following installed:
 
 ## Clone the Repository
 
-Clone the FSC repository to your local workspace.  
+Clone the FSC repository into your local workspace.  
 Throughout this document, `$FSC_PATH` refers to the local path of your cloned repository.
 
 ```bash
