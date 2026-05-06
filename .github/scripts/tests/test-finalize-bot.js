@@ -132,7 +132,7 @@ function makeContext(issue, commentBody = '/finalize', commenter = 'maintainer')
         user: { login: commenter, type: 'User' },
       },
     },
-    repo: { owner: 'hiero-ledger', repo: 'hiero-sdk-cpp' },
+    repo: { owner: 'mbrandenburger-org', repo: 'fabric-smart-client' },
   };
 }
 

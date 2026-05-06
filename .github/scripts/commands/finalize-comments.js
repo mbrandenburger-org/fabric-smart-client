@@ -156,10 +156,10 @@ const CONTRIBUTION_GUIDE_CONTENT = [
   '- [ ] Sign each commit using `-s -S`',
   '- [ ] Push your branch and open a pull request',
   '',
-  'Read [Workflow Guide](https://github.com/hyperledger-labs/fabric-smart-client/blob/main/docs/dev/workflow.md) for step-by-step workflow guidance.',
-  'Read [docs/dev/development.md](https://github.com/hyperledger-labs/fabric-smart-client/blob/main/docs/dev/development.md) for setup instructions.',
+  'Read [Workflow Guide](https://github.com/mbrandenburger-org/fabric-smart-client/blob/main/docs/dev/workflow.md) for step-by-step workflow guidance.',
+  'Read [docs/dev/development.md](https://github.com/mbrandenburger-org/fabric-smart-client/blob/main/docs/dev/development.md) for setup instructions.',
   '',
-  '❗ Pull requests **cannot be merged** without `S` and `s` signed commits. See the [Signing Guide](https://github.com/hyperledger-labs/fabric-smart-client/blob/main/docs/dev/signing.md).',
+  '❗ Pull requests **cannot be merged** without `S` and `s` signed commits. See the [Signing Guide](https://github.com/mbrandenburger-org/fabric-smart-client/blob/main/docs/dev/signing.md).',
 ].join('\n');
 
 // =============================================================================

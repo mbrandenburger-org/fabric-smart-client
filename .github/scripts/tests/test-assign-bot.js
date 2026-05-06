@@ -309,12 +309,12 @@ const scenarios = [
           user: { login: "second-requester", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { issueAlreadyAssignedTo: "first-requester" },
     expectedAssignee: null,
     expectedComments: [
-      `👋 Hi @second-requester! This issue is already assigned to @first-requester.\n\n👉 **Find another issue to work on:**\n[Browse unassigned issues](https://github.com/hiero-ledger/hiero-sdk-cpp/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22status%3A+ready+for+dev%22)\n\nOnce you find one you like, comment \`/assign\` to get started!`,
+      `👋 Hi @second-requester! This issue is already assigned to @first-requester.\n\n👉 **Find another issue to work on:**\n[Browse unassigned issues](https://github.com/mbrandenburger-org/fabric-smart-client/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22status%3A+ready+for+dev%22)\n\nOnce you find one you like, comment \`/assign\` to get started!`,
     ],
   },
   {
@@ -338,7 +338,7 @@ const scenarios = [
           user: { login: "already-assigned-user", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { issueAlreadyAssignedTo: "already-assigned-user" },
     expectedAssignee: null,
@@ -367,12 +367,12 @@ const scenarios = [
           user: { login: "third-user", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { issueAssignees: ["first-user", "second-user"] },
     expectedAssignee: null,
     expectedComments: [
-      `👋 Hi @third-user! This issue is already assigned to @first-user, @second-user.\n\n👉 **Find another issue to work on:**\n[Browse unassigned issues](https://github.com/hiero-ledger/hiero-sdk-cpp/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22status%3A+ready+for+dev%22)\n\nOnce you find one you like, comment \`/assign\` to get started!`,
+      `👋 Hi @third-user! This issue is already assigned to @first-user, @second-user.\n\n👉 **Find another issue to work on:**\n[Browse unassigned issues](https://github.com/mbrandenburger-org/fabric-smart-client/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22status%3A+ready+for+dev%22)\n\nOnce you find one you like, comment \`/assign\` to get started!`,
     ],
   },
   {
@@ -396,12 +396,12 @@ const scenarios = [
           user: { login: "stale-ready-user", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { issueLabels: [{ name: LABELS.GOOD_FIRST_ISSUE }] },
     expectedAssignee: null,
     expectedComments: [
-      `👋 Hi @stale-ready-user! This issue is not ready for development yet.\n\nIssues must have the \`status: ready for dev\` label before they can be assigned.\n\n👉 **Find an issue that's ready:**\n[Browse ready issues](https://github.com/hiero-ledger/hiero-sdk-cpp/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22status%3A+ready+for+dev%22)\n\nOnce you find one you like, comment \`/assign\` to get started!`,
+      `👋 Hi @stale-ready-user! This issue is not ready for development yet.\n\nIssues must have the \`status: ready for dev\` label before they can be assigned.\n\n👉 **Find an issue that's ready:**\n[Browse ready issues](https://github.com/mbrandenburger-org/fabric-smart-client/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22status%3A+ready+for+dev%22)\n\nOnce you find one you like, comment \`/assign\` to get started!`,
     ],
   },
   {
@@ -425,7 +425,7 @@ const scenarios = [
           user: { login: "stale-skill-user", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { issueLabels: [{ name: LABELS.READY_FOR_DEV }] },
     expectedAssignee: null,
@@ -454,7 +454,7 @@ const scenarios = [
           user: { login: "skill-changed-user", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {
       issueLabels: [{ name: LABELS.READY_FOR_DEV }, { name: LABELS.BEGINNER }],
@@ -487,7 +487,7 @@ const scenarios = [
           user: { login: "unlucky-user-4", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { issueGetShouldFail: true },
     expectedAssignee: null,
@@ -520,7 +520,7 @@ const scenarios = [
           user: { login: "new-contributor", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {},
     expectedAssignee: "new-contributor",
@@ -555,7 +555,7 @@ Good luck, and welcome aboard! 🚀`,
           user: { login: "experienced-contributor", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { completedIssueCounts: { [LABELS.GOOD_FIRST_ISSUE]: 2 } },
     expectedAssignee: "experienced-contributor",
@@ -591,7 +591,7 @@ Good luck! 🚀`,
           user: { login: "growing-contributor", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { completedIssueCounts: { [LABELS.BEGINNER]: 3 } },
     expectedAssignee: "growing-contributor",
@@ -627,7 +627,7 @@ Good luck! 🚀`,
           user: { login: "senior-contributor", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { completedIssueCounts: { [LABELS.INTERMEDIATE]: 3 } },
     expectedAssignee: "senior-contributor",
@@ -667,7 +667,7 @@ Good luck! 🚀`,
           user: { login: "bypass-user-1", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {
       completedIssueCounts: {
@@ -702,7 +702,7 @@ Good luck! 🚀`,
           user: { login: "bypass-user-2", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {
       completedIssueCounts: {
@@ -741,7 +741,7 @@ Good luck! 🚀`,
           user: { login: "veteran-gfi-user", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { completedIssueCounts: { [LABELS.GOOD_FIRST_ISSUE]: 5 } },
     expectedAssignee: null,
@@ -751,7 +751,7 @@ Good luck! 🚀`,
 Good First Issues are designed to help new contributors get comfortable with the process, and you've clearly mastered it. We believe you're more than ready to take on bigger challenges!
 
 👉 **Find Beginner and higher issues to work on:**
-[Browse available Beginner issues](https://github.com/hiero-ledger/hiero-sdk-cpp/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee%20label%3A%22skill%3A%20beginner%22%20label%3A%22status%3A%20ready%20for%20dev%22)
+[Browse available Beginner issues](https://github.com/mbrandenburger-org/fabric-smart-client/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee%20label%3A%22skill%3A%20beginner%22%20label%3A%22status%3A%20ready%20for%20dev%22)
 
 Come take on something more challenging — we're excited to see what you'll build next! 🚀`,
     ],
@@ -778,7 +778,7 @@ Come take on something more challenging — we're excited to see what you'll bui
           user: { login: "almost-capped-user", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { completedIssueCounts: { [LABELS.GOOD_FIRST_ISSUE]: 4 } },
     expectedAssignee: "almost-capped-user",
@@ -814,7 +814,7 @@ Good luck, and welcome aboard! 🚀`,
           user: { login: "gfi-graduated-user", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { completedIssueCounts: { [LABELS.GOOD_FIRST_ISSUE]: 5 } },
     expectedAssignee: "gfi-graduated-user",
@@ -854,7 +854,7 @@ Good luck! 🚀`,
           user: { login: "late-arrival", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {},
     expectedAssignee: null,
@@ -862,7 +862,7 @@ Good luck! 🚀`,
       `👋 Hi @late-arrival! This issue is already assigned to @other-user.
 
 👉 **Find another issue to work on:**
-[Browse unassigned issues](https://github.com/hiero-ledger/hiero-sdk-cpp/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22status%3A+ready+for+dev%22)
+[Browse unassigned issues](https://github.com/mbrandenburger-org/fabric-smart-client/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22status%3A+ready+for+dev%22)
 
 Once you find one you like, comment \`/assign\` to get started!`,
     ],
@@ -888,7 +888,7 @@ Once you find one you like, comment \`/assign\` to get started!`,
           user: { login: "forgetful-user", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {},
     expectedAssignee: null,
@@ -916,7 +916,7 @@ If you have any questions, feel free to ask here or reach out to the team.`,
           user: { login: "eager-user", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {},
     expectedAssignee: null,
@@ -926,7 +926,7 @@ If you have any questions, feel free to ask here or reach out to the team.`,
 Issues must have the \`status: ready for dev\` label before they can be assigned.
 
 👉 **Find an issue that's ready:**
-[Browse ready issues](https://github.com/hiero-ledger/hiero-sdk-cpp/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22status%3A+ready+for+dev%22)
+[Browse ready issues](https://github.com/mbrandenburger-org/fabric-smart-client/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22status%3A+ready+for+dev%22)
 
 Once you find one you like, comment \`/assign\` to get started!`,
     ],
@@ -949,7 +949,7 @@ Once you find one you like, comment \`/assign\` to get started!`,
           user: { login: "eager-user", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {},
     expectedAssignee: null,
@@ -959,7 +959,7 @@ Once you find one you like, comment \`/assign\` to get started!`,
 Issues must have the \`status: ready for dev\` label before they can be assigned.
 
 👉 **Find an issue that's ready:**
-[Browse ready issues](https://github.com/hiero-ledger/hiero-sdk-cpp/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22status%3A+ready+for+dev%22)
+[Browse ready issues](https://github.com/mbrandenburger-org/fabric-smart-client/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22status%3A+ready+for+dev%22)
 
 Once you find one you like, comment \`/assign\` to get started!`,
     ],
@@ -982,7 +982,7 @@ Once you find one you like, comment \`/assign\` to get started!`,
           user: { login: "confused-user", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {},
     expectedAssignee: null,
@@ -1019,7 +1019,7 @@ ${MAINTAINER_TEAM} — could you please add one of the following labels?
           user: { login: "eager-newbie", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { completedIssueCount: 0, openAssignmentCount: 0 },
     expectedAssignee: null,
@@ -1031,7 +1031,7 @@ This is a **Beginner** issue. Before taking it on, you need to complete at least
 📊 **Your Progress:** You've completed **0** so far.
 
 👉 **Find Good First Issues to work on:**
-[Browse available Good First Issues](https://github.com/hiero-ledger/hiero-sdk-cpp/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee%20label%3A%22skill%3A%20good%20first%20issue%22%20label%3A%22status%3A%20ready%20for%20dev%22)
+[Browse available Good First Issues](https://github.com/mbrandenburger-org/fabric-smart-client/issues?q=is%3Aissue%20is%3Aopen%20no%3Aassignee%20label%3A%22skill%3A%20good%20first%20issue%22%20label%3A%22status%3A%20ready%20for%20dev%22)
 
 Once you've completed 2, come back and we'll be happy to assign this to you! 🎯`,
     ],
@@ -1057,7 +1057,7 @@ Once you've completed 2, come back and we'll be happy to assign this to you! �
           user: { login: "busy-contributor", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { openAssignmentCount: 2 },
     expectedAssignee: null,
@@ -1069,7 +1069,7 @@ To help contributors stay focused and ensure issues remain available for others,
 📊 **Your Current Assignments:** You're currently assigned to **2** open issues.
 
 👉 **View your assigned issues:**
-[Your open assignments](https://github.com/hiero-ledger/hiero-sdk-cpp/issues?q=is%3Aissue%20is%3Aopen%20assignee%3Abusy-contributor%20-label%3A%22status%3A%20blocked%22)
+[Your open assignments](https://github.com/mbrandenburger-org/fabric-smart-client/issues?q=is%3Aissue%20is%3Aopen%20assignee%3Abusy-contributor%20-label%3A%22status%3A%20blocked%22)
 
 💡 **Tip:** If all of your open assigned issues have a linked PR with \`status: needs review\`, the limit is automatically bypassed — you can request a new assignment right away.
 
@@ -1097,7 +1097,7 @@ Once you complete or unassign from one of your current issues, come back and we'
           user: { login: "very-busy-contributor", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { openAssignmentCount: 5 },
     expectedAssignee: null,
@@ -1109,7 +1109,7 @@ To help contributors stay focused and ensure issues remain available for others,
 📊 **Your Current Assignments:** You're currently assigned to **3+** open issues.
 
 👉 **View your assigned issues:**
-[Your open assignments](https://github.com/hiero-ledger/hiero-sdk-cpp/issues?q=is%3Aissue%20is%3Aopen%20assignee%3Avery-busy-contributor%20-label%3A%22status%3A%20blocked%22)
+[Your open assignments](https://github.com/mbrandenburger-org/fabric-smart-client/issues?q=is%3Aissue%20is%3Aopen%20assignee%3Avery-busy-contributor%20-label%3A%22status%3A%20blocked%22)
 
 💡 **Tip:** If all of your open assigned issues have a linked PR with \`status: needs review\`, the limit is automatically bypassed — you can request a new assignment right away.
 
@@ -1138,7 +1138,7 @@ Once you complete or unassign from one of your current issues, come back and we'
           user: { login: "now-over-limit-user", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {
       openAssignmentCount: 3,
@@ -1153,7 +1153,7 @@ To help contributors stay focused and ensure issues remain available for others,
 📊 **Your Current Assignments:** You're currently assigned to **3+** open issues.
 
 👉 **View your assigned issues:**
-[Your open assignments](https://github.com/hiero-ledger/hiero-sdk-cpp/issues?q=is%3Aissue%20is%3Aopen%20assignee%3Anow-over-limit-user%20-label%3A%22status%3A%20blocked%22)
+[Your open assignments](https://github.com/mbrandenburger-org/fabric-smart-client/issues?q=is%3Aissue%20is%3Aopen%20assignee%3Anow-over-limit-user%20-label%3A%22status%3A%20blocked%22)
 
 💡 **Tip:** If all of your open assigned issues have a linked PR with \`status: needs review\`, the limit is automatically bypassed — you can request a new assignment right away.
 
@@ -1182,7 +1182,7 @@ Once you complete or unassign from one of your current issues, come back and we'
           user: { login: "at-limit-with-blocked", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {
       openAssignmentCount: 2,
@@ -1198,10 +1198,10 @@ To help contributors stay focused and ensure issues remain available for others,
 📊 **Your Current Assignments:** You're currently assigned to **2** open issues.
 
 👉 **View your assigned issues:**
-[Your open assignments](https://github.com/hiero-ledger/hiero-sdk-cpp/issues?q=is%3Aissue%20is%3Aopen%20assignee%3Aat-limit-with-blocked%20-label%3A%22status%3A%20blocked%22)
+[Your open assignments](https://github.com/mbrandenburger-org/fabric-smart-client/issues?q=is%3Aissue%20is%3Aopen%20assignee%3Aat-limit-with-blocked%20-label%3A%22status%3A%20blocked%22)
 
 👉 **View your blocked issues:**
-[Your blocked issues](https://github.com/hiero-ledger/hiero-sdk-cpp/issues?q=is%3Aissue%20is%3Aopen%20assignee%3Aat-limit-with-blocked%20label%3A%22status%3A%20blocked%22)
+[Your blocked issues](https://github.com/mbrandenburger-org/fabric-smart-client/issues?q=is%3Aissue%20is%3Aopen%20assignee%3Aat-limit-with-blocked%20label%3A%22status%3A%20blocked%22)
 
 💡 **Tip:** If all of your open assigned issues have a linked PR with \`status: needs review\`, the limit is automatically bypassed — you can request a new assignment right away.
 
@@ -1229,7 +1229,7 @@ Once you complete or unassign from one of your current issues, come back and we'
           user: { login: "active-contributor", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { openAssignmentCount: 1 },
     expectedAssignee: "active-contributor",
@@ -1265,7 +1265,7 @@ Good luck, and welcome aboard! 🚀`,
           user: { login: "blocked-contributor", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {
       openAssignmentCount: 2,
@@ -1308,7 +1308,7 @@ Good luck, and welcome aboard! 🚀`,
           user: { login: "unlucky-user-3", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { restListOpenShouldFail: true },
     expectedAssignee: null,
@@ -1341,7 +1341,7 @@ ${MAINTAINER_TEAM} — could you please help with this assignment request?
           user: { login: "unlucky-user", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { restListClosedShouldFail: true },
     expectedAssignee: null,
@@ -1374,7 +1374,7 @@ ${MAINTAINER_TEAM} — could you please help with this assignment request?
           user: { login: "unlucky-user-2", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { assignShouldFail: true },
     expectedAssignee: null,
@@ -1407,7 +1407,7 @@ Error details: Simulated assignment failure`,
           user: { login: "partially-lucky", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { removeLabelShouldFail: true, addLabelShouldFail: true },
     expectedAssignee: "partially-lucky",
@@ -1455,7 +1455,7 @@ Error details: Failed to remove 'status: ready for dev': Simulated remove label 
           user: { login: "deleted-comment-user", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: { reactionShouldFail: true },
     expectedAssignee: null,
@@ -1488,7 +1488,7 @@ Error details: Failed to remove 'status: ready for dev': Simulated remove label 
           user: { login: "curious-user", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {},
     expectedAssignee: null,
@@ -1515,7 +1515,7 @@ Error details: Failed to remove 'status: ready for dev': Simulated remove label 
           user: { login: "github-actions[bot]", type: "Bot" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {},
     expectedAssignee: null,
@@ -1548,7 +1548,7 @@ Error details: Failed to remove 'status: ready for dev': Simulated remove label 
           user: { login: "bypass-review-user-1", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {
       mockUsername: "bypass-review-user-1",
@@ -1590,7 +1590,7 @@ Error details: Failed to remove 'status: ready for dev': Simulated remove label 
           user: { login: "bypass-review-user-2", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {
       mockUsername: "bypass-review-user-2",
@@ -1605,7 +1605,7 @@ Error details: Failed to remove 'status: ready for dev': Simulated remove label 
     },
     expectedAssignee: null,
     expectedComments: [
-      `👋 Hi @bypass-review-user-2! Thanks for your enthusiasm to contribute!\n\nTo help contributors stay focused and ensure issues remain available for others, we limit assignments to **2 open issues** at a time. Issues labeled \`status: blocked\` are not counted toward this limit.\n\n📊 **Your Current Assignments:** You're currently assigned to **2** open issues.\n\n👉 **View your assigned issues:**\n[Your open assignments](https://github.com/hiero-ledger/hiero-sdk-cpp/issues?q=is%3Aissue%20is%3Aopen%20assignee%3Abypass-review-user-2%20-label%3A%22status%3A%20blocked%22)\n\n💡 **Tip:** If all of your open assigned issues have a linked PR with \`status: needs review\`, the limit is automatically bypassed — you can request a new assignment right away.\n\nOnce you complete or unassign from one of your current issues, come back and we'll be happy to assign this to you! 🎯`,
+      `👋 Hi @bypass-review-user-2! Thanks for your enthusiasm to contribute!\n\nTo help contributors stay focused and ensure issues remain available for others, we limit assignments to **2 open issues** at a time. Issues labeled \`status: blocked\` are not counted toward this limit.\n\n📊 **Your Current Assignments:** You're currently assigned to **2** open issues.\n\n👉 **View your assigned issues:**\n[Your open assignments](https://github.com/mbrandenburger-org/fabric-smart-client/issues?q=is%3Aissue%20is%3Aopen%20assignee%3Abypass-review-user-2%20-label%3A%22status%3A%20blocked%22)\n\n💡 **Tip:** If all of your open assigned issues have a linked PR with \`status: needs review\`, the limit is automatically bypassed — you can request a new assignment right away.\n\nOnce you complete or unassign from one of your current issues, come back and we'll be happy to assign this to you! 🎯`,
     ],
   },
 
@@ -1630,7 +1630,7 @@ Error details: Failed to remove 'status: ready for dev': Simulated remove label 
           user: { login: "bypass-review-user-3", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {
       mockUsername: "bypass-review-user-3",
@@ -1645,7 +1645,7 @@ Error details: Failed to remove 'status: ready for dev': Simulated remove label 
     },
     expectedAssignee: null,
     expectedComments: [
-      `👋 Hi @bypass-review-user-3! Thanks for your enthusiasm to contribute!\n\nTo help contributors stay focused and ensure issues remain available for others, we limit assignments to **2 open issues** at a time. Issues labeled \`status: blocked\` are not counted toward this limit.\n\n📊 **Your Current Assignments:** You're currently assigned to **2** open issues.\n\n👉 **View your assigned issues:**\n[Your open assignments](https://github.com/hiero-ledger/hiero-sdk-cpp/issues?q=is%3Aissue%20is%3Aopen%20assignee%3Abypass-review-user-3%20-label%3A%22status%3A%20blocked%22)\n\n💡 **Tip:** If all of your open assigned issues have a linked PR with \`status: needs review\`, the limit is automatically bypassed — you can request a new assignment right away.\n\nOnce you complete or unassign from one of your current issues, come back and we'll be happy to assign this to you! 🎯`,
+      `👋 Hi @bypass-review-user-3! Thanks for your enthusiasm to contribute!\n\nTo help contributors stay focused and ensure issues remain available for others, we limit assignments to **2 open issues** at a time. Issues labeled \`status: blocked\` are not counted toward this limit.\n\n📊 **Your Current Assignments:** You're currently assigned to **2** open issues.\n\n👉 **View your assigned issues:**\n[Your open assignments](https://github.com/mbrandenburger-org/fabric-smart-client/issues?q=is%3Aissue%20is%3Aopen%20assignee%3Abypass-review-user-3%20-label%3A%22status%3A%20blocked%22)\n\n💡 **Tip:** If all of your open assigned issues have a linked PR with \`status: needs review\`, the limit is automatically bypassed — you can request a new assignment right away.\n\nOnce you complete or unassign from one of your current issues, come back and we'll be happy to assign this to you! 🎯`,
     ],
   },
 
@@ -1670,7 +1670,7 @@ Error details: Failed to remove 'status: ready for dev': Simulated remove label 
           user: { login: "bypass-review-user-4", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {
       openAssignedIssues: [
@@ -1706,7 +1706,7 @@ Error details: Failed to remove 'status: ready for dev': Simulated remove label 
           user: { login: "bypass-review-user-5", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {
       mockUsername: "bypass-review-user-5",
@@ -1746,7 +1746,7 @@ Error details: Failed to remove 'status: ready for dev': Simulated remove label 
           user: { login: "bypass-review-user-6", type: "User" },
         },
       },
-      repo: { owner: "hiero-ledger", repo: "hiero-sdk-cpp" },
+      repo: { owner: "mbrandenburger-org", repo: "fabric-smart-client" },
     },
     githubOptions: {
       openAssignmentCount: 2,

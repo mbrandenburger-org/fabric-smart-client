@@ -1,9 +1,9 @@
 # Fabric Smart Client
 
 [![License](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)
-[![Go Report Card](https://goreportcard.com/badge/github.com/hyperledger-labs/fabric-smart-client)](https://goreportcard.com/badge/github.com/hyperledger-labs/fabric-smart-client)
-[![Go](https://github.com/hyperledger-labs/fabric-smart-client/actions/workflows/tests.yml/badge.svg)](https://github.com/hyperledger-labs/fabric-smart-client/actions/workflows/go.yml)
-[![CodeQL](https://github.com/hyperledger-labs/fabric-smart-client/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/hyperledger-labs/fabric-smart-client/actions/workflows/codeql-analysis.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mbrandenburger-org/fabric-smart-client)](https://goreportcard.com/badge/github.com/mbrandenburger-org/fabric-smart-client)
+[![Go](https://github.com/mbrandenburger-org/fabric-smart-client/actions/workflows/tests.yml/badge.svg)](https://github.com/mbrandenburger-org/fabric-smart-client/actions/workflows/go.yml)
+[![CodeQL](https://github.com/mbrandenburger-org/fabric-smart-client/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/mbrandenburger-org/fabric-smart-client/actions/workflows/codeql-analysis.yml)
 
 The **Fabric Smart Client (FSC)** is a next-generation client-side framework for Hyperledger [Fabric](https://github.com/hyperledger/fabric) and [Fabric-x](https://github.com/hyperledger/fabric-x).  
 It lets you focus on **business logic and distributed workflows**, rather than low-level DLT details.
@@ -31,7 +31,7 @@ Ensure you have a working [Go environment](docs/dev/development.md).
 
 Clone the repository:
 ```bash
-git clone https://github.com/hyperledger-labs/fabric-smart-client.git
+git clone https://github.com/mbrandenburger-org/fabric-smart-client.git
 cd fabric-smart-client
 ```
 
@@ -55,7 +55,7 @@ Meeting notes are available [here](https://docs.google.com/document/d/13t5-9tfA-
 
 ## Versioning
 
-This projects follows [Semantic Versioning (SemVer)](https://semver.org/). See available releases here: https://github.com/hyperledger-labs/fabric-smart-client/tags
+This project follows [Semantic Versioning (SemVer)](https://semver.org/). See available releases here: https://github.com/mbrandenburger-org/fabric-smart-client/tags
 
 ## Disclaimer and License
 
