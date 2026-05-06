@@ -78,6 +78,6 @@ Once finalized, the issue will have `status: ready for dev` and can be claimed v
 
 ---
 
-Note that we follow the [LFDT Charter](https://www.lfdecentralizedtrust.org/about/charter), particularly, all new inbound code contributions to the Fabric Smart Client project shall be made under the Apache License, Version 2.0. All outbound code will be made available under the Apache License, Version 2.0.
+Note that we follow the [LFDT Charter](https://www.lfdecentralizedtrust.org/about/charter). In particular, all new inbound code contributions to the Fabric Smart Client project shall be made under the Apache License, Version 2.0. All outbound code will be made available under the Apache License, Version 2.0.
 
 You can also reach us on Discord in [#fabric-smart-client](https://discord.com/channels/905194001349627914/945691888348967012).
