@@ -10,8 +10,8 @@ const { MAINTAINER_TEAM } = require('./constants');
 
 const MARKER = '<!-- bot:pr-helper -->';
 
-const SIGNING_GUIDE = 'https://github.com/hyperledger-labs/fabric-smart-client/blob/main/docs/dev/signing.md';
-const MERGE_CONFLICTS_GUIDE = 'https://github.com/hyperledger-labs/fabric-smart-client/blob/main/docs/dev/merge-conflicts.md';
+const SIGNING_GUIDE = 'https://github.com/mbrandenburger-org/fabric-smart-client/blob/main/docs/dev/signing.md';
+const MERGE_CONFLICTS_GUIDE = 'https://github.com/mbrandenburger-org/fabric-smart-client/blob/main/docs/dev/merge-conflicts.md';
 
 /**
  * Determines the display state of a check result.

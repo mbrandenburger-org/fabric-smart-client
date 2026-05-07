@@ -8,7 +8,7 @@ We appreciate your contributions to the Fabric Smart Client project. Any help is
 
 ## Code Contributions
 
-Browse [open, unassigned issues](https://github.com/hyperledger-labs/fabric-smart-client/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22status%3A+ready+for+dev%22) to find one that matches your interest.
+Browse [open, unassigned issues](https://github.com/mbrandenburger-org/fabric-smart-client/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee+label%3A%22status%3A+ready+for+dev%22) to find one that matches your interest.
 
 Look for issues with the `status: ready for dev` label — these have been triaged and are ready to be worked on.
 Issues also carry a skill-level label (`skill: good first issue`, `skill: beginner`, `skill: intermediate`, `skill: advanced`).
@@ -43,7 +43,7 @@ Once assigned, follow the [Development Guide](docs/dev/development.md) to:
 
 ⚠️ **Ensure you are using the latest release of the Fabric Smart Client** — it's possible the bug is already fixed.
 
-1. Visit the [Issues page](https://github.com/hyperledger-labs/fabric-smart-client/issues).
+1. Visit the [Issues page](https://github.com/mbrandenburger-org/fabric-smart-client/issues).
 2. ⚠️ **Check the bug is not already reported.** If it is, comment to confirm you're also experiencing it.
 3. Click **New Issue** and choose the **Bug Report** template.
 
@@ -58,7 +58,7 @@ Security vulnerabilities should be disclosed responsibly. Please see [SECURITY.m
 ask to be assigned. Features are for user-facing capabilities — new platforms, services, API methods, etc.
 Improvements to tooling, CI, or the contribution process are [Tasks](#tasks) instead.
 
-1. Visit the [Issues page](https://github.com/hyperledger-labs/fabric-smart-client/issues).
+1. Visit the [Issues page](https://github.com/mbrandenburger-org/fabric-smart-client/issues).
 2. Verify the feature has not already been proposed.
 3. Click **New Issue** and choose the **Feature Request** template.
 
@@ -67,7 +67,7 @@ Improvements to tooling, CI, or the contribution process are [Tasks](#tasks) ins
 Use a Task for maintenance, improvement, or operational work: refactoring, dependency updates, documentation
 improvements, CI/CD changes, test coverage, or enhancements to existing features.
 
-1. Visit the [Issues page](https://github.com/hyperledger-labs/fabric-smart-client/issues).
+1. Visit the [Issues page](https://github.com/mbrandenburger-org/fabric-smart-client/issues).
 2. Verify the work has not already been proposed.
 3. Click **New Issue** and choose the **Task** template.
 

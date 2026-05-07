@@ -20,7 +20,7 @@ Throughout this document, `$FSC_PATH` refers to the local path of your cloned re
 
 ```bash
 export FSC_PATH=$HOME/myprojects/fabric-smart-client
-git clone https://github.com/hyperledger-labs/fabric-smart-client.git $FSC_PATH
+git clone https://github.com/mbrandenburger-org/fabric-smart-client.git $FSC_PATH
 cd $FSC_PATH
 ```
 
