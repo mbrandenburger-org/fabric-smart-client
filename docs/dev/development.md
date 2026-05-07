@@ -212,3 +212,4 @@ Run your new integration test:
 ```bash
 make integration-tests-fabricx-helloworld
 ```
+
